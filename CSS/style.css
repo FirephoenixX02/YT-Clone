@@ -12,7 +12,7 @@ html {
 }
 
 ::selection {
-  background-color: #68000060;
+  background-color: #e52117;
 }
 
 body {
@@ -25,9 +25,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 3rem 1rem;
-  padding: 3rem 0;
+  padding: 1rem 0;
+  padding-bottom: 2rem;
   margin: 0 1.5rem;
-  border-top: 4px solid #343434;
+  border-top: 3px solid #343434;
 }
 
 .video-section:first-child {
@@ -37,7 +38,7 @@ body {
 .video-container {
   display: flex;
   flex-direction: column;
-  background-color: #111111;
+  background-color: #111;
 }
 
 /* Thumbnail Style */
@@ -117,8 +118,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5rem;
-  color: #7f7f7f;
+  padding-top: 1rem;
+  color: #e1e1e1;
 }
 
 .video-section-title-close {
@@ -131,15 +132,17 @@ body {
 }
 
 .videos {
-  background-color: #111111;
+  background-color: #111;
 }
 
 /* Categories Style */
 
 .categories {
   padding: 1rem 2rem;
-  border-bottom: 4px solid #343434;
+  border-bottom: 1px solid #343434;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .category-section {
@@ -153,7 +156,8 @@ body {
   white-space: nowrap;
   border: 1px solid #343434;
   border-radius: 900px;
-  background-color: #9c9c9c;
+  background-color: #111;
+  color: #c0c0c0;
   padding: 0.5rem 1rem;
   font-size: inherit;
   cursor: pointer;
@@ -161,7 +165,7 @@ body {
 }
 
 .category:hover {
-  background-color: #747474;
+  background-color: #343434;
 }
 
 /* Top Nav Style */
@@ -190,7 +194,7 @@ body {
   padding: 0.4em;
   border: 1px solid #323232;
   border-top-right-radius: 0;
-  background-color: #111111;
+  background-color: #111;
 }
 
 .search-button {
@@ -220,7 +224,7 @@ Alternate Top Nav Style
 
 .topnav {
   overflow: hidden;
-  background-color: #111111;
+  background-color: #111;
 }
 
 .topnav input[type="search"] {
@@ -229,7 +233,7 @@ Alternate Top Nav Style
   margin-top: 8px;
   margin-left: 40%;
   font-size: 17px;
-  background-color: #111111;
+  background-color: #111;
   color: #525252;
   width: 400px;
 }
