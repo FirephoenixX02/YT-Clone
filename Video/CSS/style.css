@@ -1,0 +1,11 @@
+body {
+  background-color: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #68000060;
+}
