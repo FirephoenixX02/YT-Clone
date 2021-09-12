@@ -5,7 +5,7 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-/*Basic Style*/
+/* Basic Style */
 
 html {
   scroll-behavior: smooth;
@@ -16,10 +16,10 @@ html {
 }
 
 body {
-  background-color: #111111;
+  background-color: #111;
 }
 
-/*Basic Video Section Style*/
+/* Basic Video Section Style */
 
 .video-section {
   display: grid;
@@ -40,7 +40,7 @@ body {
   background-color: #111111;
 }
 
-/*Thumbnail Style*/
+/* Thumbnail Style */
 
 .thumbnail {
   position: relative;
@@ -67,7 +67,7 @@ body {
   background-color: #292929;
 }
 
-/*Video Style*/
+/* Video Style */
 
 .video-bottom-section {
   display: flex;
@@ -134,7 +134,7 @@ body {
   background-color: #111111;
 }
 
-/*Categories Style*/
+/* Categories Style */
 
 .categories {
   padding: 1rem 2rem;
@@ -164,7 +164,7 @@ body {
   background-color: #747474;
 }
 
-/*Top Nav Style*/
+/* Top Nav Style */
 
 .header {
   display: flex;
