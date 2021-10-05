@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
 body {
   background-color: #111111;
 }
@@ -7,5 +14,35 @@ html {
 }
 
 ::selection {
-  background-color: #68000060;
+  background-color: #e52117;
+}
+
+.video-metadata {
+  color: #7f7f7f;
+}
+
+.video-details {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: #e1e1e1;
+  transition: color 150ms;
+}
+
+.video-title:hover {
+  color: #e52117;
+}
+
+.video-channel-name {
+  margin-bottom: 0.1rem;
+  text-decoration: none;
+  color: #e52117;
+  transition: color 150ms;
 }
